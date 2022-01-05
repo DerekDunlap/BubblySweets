@@ -1,0 +1,109 @@
+#footer-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #333;
+  align-items: center;
+  padding: 0;
+}
+
+#footer-div {
+  text-align: center;
+  text-decoration: none;
+  background: -webkit-linear-gradient(#ee9ca7, #ffdde1);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#footer-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background: -webkit-linear-gradient(#ee9ca7, #ffdde1);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-bottom: 1px outset #ee9ca7;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#footer-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  background: -webkit-linear-gradient(#ee9ca7, #ffdde1);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-bottom: 1px outset #ee9ca7;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#copyright-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-body-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#contact-div {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+#footer-body h3 {
+  font-weight: 700;
+}
+
+#contact-ul {
+  text-align: left;
+  list-style-type: none;
+  padding: 0;
+}
+
+#footer-copyright {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  background: -webkit-linear-gradient(80deg, #ee9ca7, #ffdde1);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#copyright-div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 15%;
+}
+
+.form__field{
+    border: none;
+    border-bottom: 2px solid #ee9ca7;
+    color: #fff;
+    background-color: inherit;
+    outline: 0;
+    width: 40%;
+}
+
+.form__button{
+    border:none;
+    background-color: #ee9ca7;
+    border-bottom: 2px solid #ee9ca7;
+    background-color: inherit;
+    font-weight: 600;
+}

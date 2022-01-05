@@ -1,0 +1,43 @@
+#homepage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 180em;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.pre-header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #333f;
+}
+
+.pre-header-link{
+    text-align: left;
+    text-decoration: none;
+    background: -webkit-linear-gradient(#ee9ca7,#ffdde1);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.home-header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 95rem;
+    padding: 0;
+}
+
+.home-carousel{
+    position: absolute;
+    top: 6.9rem;
+    width: 100%;
+    z-index: -1;
+}

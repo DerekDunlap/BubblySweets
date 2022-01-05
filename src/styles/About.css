@@ -1,0 +1,46 @@
+#about-main-div{
+    padding:0;
+}
+
+#about-container-1{
+    display: flex;
+    height: inherit;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-color: #ffdde1;
+}
+
+#about-container-2{
+    display: flex;
+    height: inherit;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-color: #333;
+}
+
+#about-img{
+    width: 85%;
+    height: auto;
+}
+
+#about-paragraph-1{
+    width: 50rem;
+    font-size: x-large;
+    height: fit-content;
+    line-height: 2.8rem;
+}
+
+#about-paragraph-2{
+    color: #ffdde1;
+    width: 50rem;
+    font-size: x-large;
+    height: fit-content;
+    line-height: 2.8rem;
+}
+
