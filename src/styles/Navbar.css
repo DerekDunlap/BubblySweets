@@ -15,6 +15,12 @@
     background: #ffdde1;
 }
 
+.navbar-brand{
+    display: flex;
+    justify-content: center;
+    width: 5rem;
+}
+
 .container{
     display: flex;
     align-items: center;
