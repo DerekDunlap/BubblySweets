@@ -1,10 +1,8 @@
 #best-sellers-container{
     display: flex;
     flex-direction: column;
-    justify-content: inherit;
-    height: 90rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 12rem;
 }
 
 #best-sellers-container h2{

@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
-import "../styles/Home.css";
+import "../styles/Product.css";
 import "../styles/Newsletter.css";
-import BestSellers from './BestSellers';
+import RelatedProducts from './RelatedProducts';
 import About from './About';
 import Footer from './Footer';
 import Navbar  from './Navbar';
 
-function Home() {
+function Product() {
     const [displayNewsletter, setDisplayNewsletter] = useState(false);
 
     useEffect(() => {
@@ -50,8 +50,10 @@ function Home() {
         </div>
     )
 
+    /* Add Related Products component in place of Best Sellers component*/
+    /* Add Description component before Related Products component*/
     return (
-        <div className='container-fluid' id='homepage'>
+        <div className='container-fluid' id='productpage'>
             <Navbar/>
                 {displayNewsletter ? newsletterModal : null}
                 <Carousel className='home-carousel' variant='dark'>
@@ -65,11 +67,10 @@ function Home() {
                         <img src="https://static.wixstatic.com/media/0a1260_999bbe8e6f5c47c5869e4808ba5e1285~mv2.png/v1/fill/w_1743,h_600,al_c,q_90,usm_0.66_1.00_0.01/0a1260_999bbe8e6f5c47c5869e4808ba5e1285~mv2.webp" className="d-block w-100" alt="..." />
                     </Carousel.Item>
                 </Carousel>
-            <BestSellers/>
-            <About/>
+            <RelatedProducts/>
             <Footer/>
         </div>
     )
 }
 
-export default Home
+export default Product

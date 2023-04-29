@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/Footer.css'
 
+
 function Footer() {
     return (
         <div className='container-fluid' id='footer-container'>
@@ -15,7 +16,7 @@ function Footer() {
                         <ul id='contact-ul'>
                             <li>(678) 719-2317</li>
                             <li>Atlanta, GA</li>
-                            <li>bubblysweetssoap@gmail.com</li>
+                            <li><a href='mailto:bubblysweetssoap@gmail.com'>bubblysweetssoap@gmail.com</a></li>
                             <li><a href='https://www.instagram.com/bubblysweetssoap/'>Instagram: @bubblysweetssoap</a></li>
                         </ul>
                     </div>
@@ -24,7 +25,7 @@ function Footer() {
                         <ul id='contact-ul'>
                             <li><a>My account</a></li>
                             <li><a>Delivery information</a></li>
-                            <li><a href='https://www.instagram.com/bubblysweetssoap/'>Track my order</a></li>
+                            <li>Track my order</li>
                             <li><a>Help</a></li>
                         </ul>
                     </div>

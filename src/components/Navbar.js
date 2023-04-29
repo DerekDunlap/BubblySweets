@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from 'react-bootstrap/Navbar'
 import { Container, Nav } from 'react-bootstrap'
+import { Link } from "react-router-dom";
 import '../styles/Navbar.css'
 
 function Navigation() {
@@ -19,9 +20,9 @@ function Navigation() {
             </div>
             <Navbar className='navbar'>
                 <Container className='container'>
-                    <Nav.Link>
+                    <Link to="/">
                         Home
-                    </Nav.Link>
+                    </Link>
                     <Nav.Link>
                         Shop
                     </Nav.Link>
