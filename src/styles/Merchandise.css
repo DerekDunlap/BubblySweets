@@ -1,0 +1,25 @@
+
+
+#merchandise-container{
+    margin: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#vertical-img-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+#main-prod-descript-container h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    line-height: 1.24em;
+    font-size: 48px;
+  }

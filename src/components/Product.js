@@ -7,6 +7,7 @@ import RelatedProducts from './RelatedProducts';
 import About from './About';
 import Footer from './Footer';
 import Navbar  from './Navbar';
+import Merchandise from './Merchandise';
 
 function Product() {
     const [displayNewsletter, setDisplayNewsletter] = useState(false);
@@ -67,6 +68,7 @@ function Product() {
                         <img src="https://static.wixstatic.com/media/0a1260_999bbe8e6f5c47c5869e4808ba5e1285~mv2.png/v1/fill/w_1743,h_600,al_c,q_90,usm_0.66_1.00_0.01/0a1260_999bbe8e6f5c47c5869e4808ba5e1285~mv2.webp" className="d-block w-100" alt="..." />
                     </Carousel.Item>
                 </Carousel>
+            <Merchandise/>
             <RelatedProducts/>
             <Footer/>
         </div>

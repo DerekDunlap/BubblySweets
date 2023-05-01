@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import '../styles/RelatedProducts.css';
 
-function BestSellers() {
+function RelatedProducts() {
     return (
         <div className='container-fluid' id='related-products-container'>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
@@ -18,7 +18,7 @@ function BestSellers() {
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star "></span>
+                    <span class="fa fa-star-o"></span>
                     </div>
                 </div>
                 <div className='product-box'>
@@ -42,7 +42,7 @@ function BestSellers() {
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star "></span>
+                    <span class="fa fa-star-o"></span>
                     </div>
                 </div>
                 <div className='product-box'>
@@ -54,7 +54,7 @@ function BestSellers() {
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star "></span>
+                    <span class="fa fa-star-o"></span>
                     </div>
                 </div>
             </div>
@@ -62,4 +62,4 @@ function BestSellers() {
     )
 }
 
-export default BestSellers
+export default RelatedProducts
