@@ -25,22 +25,22 @@
 }
 
 #about-img{
-    width: 85%;
-    height: auto;
+    max-width: 85%;
+    min-height: 10re;
 }
 
 #about-paragraph-1{
-    width: 50rem;
+    max-width: 60rem;
+    min-height: 10rem;
     font-size: x-large;
-    height: fit-content;
     line-height: 2.8rem;
 }
 
 #about-paragraph-2{
     color: #ffdde1;
-    width: 50rem;
+    max-width: 60rem;
+    min-height: 10rem;
     font-size: x-large;
-    height: fit-content;
     line-height: 2.8rem;
 }
 

@@ -6,6 +6,10 @@
     padding-right: 0;
 }
 
+#prodcutpage img{
+    max-width: 100%;
+}
+
 .pre-header-container{
     display: flex;
     justify-content: space-evenly;
